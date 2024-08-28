@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--silver);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+:root {
+    --green: #4CAF4F;
+    --silver: #F5F7FA;
+    --black: #263238;
+    --white: #FFFFFF;
+}
+
+.navbar{
+    width: 1440px;
+height: 84px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+#logo{
+    width: Hug (154.49px)px;
+height: Hug (24px)px;
+top: 30px;
+left: 105px;
+gap: 8px;
+opacity: 0px;
+
+}
+
+.green-btn {
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.hero{
+    width: Fill (1,440px)px;
+height: Hug (599px)px;
+padding: 96px 144px 96px 144px;
+gap: 104px;
+opacity: 0px;
+
+}
+
+#hero-img {
+    width: 391px;
+    height: 407px;
+    gap: 0px;
+    opacity: 0px;
+
+}
