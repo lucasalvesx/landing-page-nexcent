@@ -7,26 +7,30 @@
 
 :root {
     --green: #4CAF4F;
-    --silver: #F5F7FA;
+    --silver: #4D4D4D
     --black: #263238;
     --white: #FFFFFF;
 }
 
-.navbar{
+.navbar {
     width: 1440px;
-height: 84px;
-gap: 0px;
-opacity: 0px;
+    height: 84px;
+    gap: 0px;
+    opacity: 0px;
 
 }
 
-#logo{
+body{
+    color: var(--silver);
+}
+
+#logo {
     width: Hug (154.49px)px;
-height: Hug (24px)px;
-top: 30px;
-left: 105px;
-gap: 8px;
-opacity: 0px;
+    height: Hug (24px)px;
+    top: 30px;
+    left: 105px;
+    gap: 8px;
+    opacity: 0px;
 
 }
 
@@ -36,12 +40,13 @@ opacity: 0px;
     cursor: pointer;
 }
 
-.hero{
-    width: Fill (1,440px)px;
-height: Hug (599px)px;
-padding: 96px 144px 96px 144px;
-gap: 104px;
-opacity: 0px;
+.hero {
+    width: Fill (1, 440px)px;
+    height: Hug (599px)px;
+    padding: 96px 144px 96px 144px;
+    gap: 104px;
+    opacity: 0px;
+    background-color: var(--silver);
 
 }
 
@@ -51,4 +56,25 @@ opacity: 0px;
     gap: 0px;
     opacity: 0px;
 
+}
+
+.services{
+    width: Fixed (1,440px)px;
+height: Hug (280px)px;
+padding: 0px 144px 0px 144px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+
+}
+
+#suitable-for {
+
+
+    img {
+        width: 65px;
+        height: 56px;
+        gap: 0px;
+        opacity: 0px;
+    }
 }
